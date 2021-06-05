@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="UI Automation Assignment ">
+
+    <listeners>
+        <listener class-name="com.qa.web.testReport.ExtentReportListener"/>
+    </listeners>
+
+
+    <test name="Droppable Test Cases">
+        <classes>
+            <class name="com.qa.web.test.DragAndDropTest"></class>
+
+        </classes>
+    </test>
+    <test name="Selectable Test Cases">
+        <classes>
+            <class name="com.qa.web.test.SelectTest"></class>
+
+        </classes>
+    </test>
+    <test name="ControlGroup Test Cases">
+        <classes>
+
+            <class name="com.qa.web.test.CheckBoxAndRadioButtonTest"></class>
+
+        </classes>
+    </test>
+</suite>
