@@ -1,2 +1,7 @@
 # UI_API_Automation
-UI AUtomation using selenium and API automation using Robot Framework
+It contains both UI automation and API automation.
+UI Automation is done using Selenium following Page Object Model
+API Automation is done using Rest Assured.
+Build Tool - Maven
+Reports - Extent Reports
+Framework - TestNG
